@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="620.0" prefWidth="830.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <ImageView fitHeight="620.0" fitWidth="847.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@background.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="13.0" layoutY="14.0" prefHeight="53.0" prefWidth="189.0" text="Borrow ">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="132.0" text="Student ID :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="56.0" layoutY="362.0" mnemonicParsing="false" onAction="#addown" prefHeight="40.0" prefWidth="102.0" style="-fx-background-color: #A7C796;" text="Borrow">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="56.0" layoutY="437.0" mnemonicParsing="false" onAction="#switchtoDocumentstd" prefHeight="40.0" prefWidth="102.0" style="-fx-background-color: #A7C796;" text="Back">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="label1" layoutX="30.0" layoutY="486.0" prefHeight="100.0" prefWidth="318.0" textFill="#f60000">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="175.0" text="Document Name:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="17.0" layoutY="216.0" prefHeight="20.0" prefWidth="144.0" text="MajorId (of the book)">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="260.0" prefHeight="20.0" prefWidth="79.0" text="Course ID:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="text29" layoutX="169.0" layoutY="211.0" prefHeight="31.0" prefWidth="209.0" />
+      <TextField fx:id="text28" layoutX="169.0" layoutY="170.0" prefHeight="31.0" prefWidth="209.0" />
+      <TextField fx:id="text27" layoutX="169.0" layoutY="126.0" prefHeight="31.0" prefWidth="209.0" />
+      <TextField fx:id="text30" layoutX="169.0" layoutY="255.0" prefHeight="31.0" prefWidth="209.0" />
+   </children>
+</AnchorPane>
